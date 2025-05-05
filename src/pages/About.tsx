@@ -1,4 +1,4 @@
-
+import React from "react";
 
 export default function About() {
   return (
@@ -18,9 +18,20 @@ export default function About() {
           Every piece in our portfolio is crafted to celebrate subtle sophistication — effortlessly wearable, yet distinctly refined.
         </p>
 
-        <p className="text-rosewood text-lg font-light leading-relaxed">
+        <p className="text-rosewood text-lg font-light leading-relaxed mb-12">
           Our mission is to bring a touch of brilliance to everyday moments and redefine the power of simplicity through elegant, meaningful jewellery.
         </p>
+
+        {/* Contact Section */}
+        <div className="border-t border-rosewood pt-8 mt-12">
+          <h2 className="text-2xl font-serif text-divina mb-4">Contact</h2>
+          <p className="text-rosewood text-md mb-2">
+            <strong>Address:</strong> Abbasağa Mah. Yıldız Cad. Bekçi Sok. No:1
+          </p>
+          <p className="text-rosewood text-md">
+            <strong>Phone:</strong> 0542 848 26 17
+          </p>
+        </div>
       </div>
     </div>
   );
